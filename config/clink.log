@@ -1,0 +1,40 @@
+3b8c start_logger              160 ---- 2023/06/23 00:36:55.338 -------------------------------------------------
+3b8c start_logger              166 Host process is 'cmd.exe' (pid 15244)
+3b8c start_logger              170 DLL path is 'C:\Users\drcrypter\Documents\Camtasia\LaravelLas\LaravelLas\vendor\clink'
+3b8c start_logger              185 Windows version 10.0.19045 (x64)
+3b8c start_logger              188 Clink version 1.4.4.7fe1ca (x64)
+3b8c hook_setter::hook_setter  159 >>> Started hook transaction.
+3b8c hook_setter::attach_iat   316 Attempting to hook SetEnvironmentVariableW in IAT for module 00007FF7B15D0000.
+3b8c pe_info::iterate_imports  159 Found import in 'api-ms-win-core-processenvironment-l1-1-0.dll'
+3b8c find_iat                  124 Found import at 00007FF7B1603860 (value is 00007FFA596B2FC0).
+3b8c hook_setter::attach_iat   316 Attempting to hook WriteConsoleW in IAT for module 00007FF7B15D0000.
+3b8c pe_info::iterate_imports  159 Found import in 'api-ms-win-core-console-l1-1-0.dll'
+3b8c find_iat                  124 Found import at 00007FF7B16034F8 (value is 00007FFA596576D0).
+3b8c hook_setter::attach_iat   316 Attempting to hook GetEnvironmentVariableW in IAT for module 00007FF7B15D0000.
+3b8c pe_info::iterate_imports  159 Found import in 'api-ms-win-core-processenvironment-l1-1-0.dll'
+3b8c find_iat                  124 Found import at 00007FF7B1603880 (value is 00007FFA59675430).
+3b8c hook_setter::commit       207 <<< Hook transaction committed.
+3b8c hook_setter::hook_setter  159 >>> Started hook transaction.
+3b8c hook_setter::detach_iat   359 Attempting to unhook 00007FF9D23F9710 from GetEnvironmentVariableW in IAT for module 00007FF7B15D0000.
+3b8c pe_info::iterate_imports  159 Found import in 'api-ms-win-core-processenvironment-l1-1-0.dll'
+3b8c find_iat                  124 Found import at 00007FF7B1603880 (value is 00007FF9D23F9710).
+3b8c hook_setter::commit       207 <<< Hook transaction committed.
+3b8c hook_setter::hook_setter  159 >>> Started hook transaction.
+3b8c hook_setter::attach_iat   316 Attempting to hook ReadConsoleW in IAT for module 00007FF7B15D0000.
+3b8c pe_info::iterate_imports  159 Found import in 'api-ms-win-core-console-l1-1-0.dll'
+3b8c find_iat                  124 Found import at 00007FF7B16034E0 (value is 00007FFA59760A30).
+3b8c hook_setter::commit       207 <<< Hook transaction committed.
+3b8c hook_setter::hook_setter  159 >>> Started hook transaction.
+3b8c hook_setter::attach_iat   316 Attempting to hook SetConsoleTitleW in IAT for module 00007FF7B15D0000.
+3b8c pe_info::iterate_imports  159 Found import in 'api-ms-win-core-console-l2-2-0.dll'
+3b8c find_iat                  124 Found import at 00007FF7B1603558 (value is 00007FFA596C6930).
+3b8c hook_setter::commit       207 <<< Hook transaction committed.
+3b8c win_screen_buffer::begin  228 Using native terminal support; found 'ConEmuHk64.dll'.
+3b8c host_lua::load_scripts    158 Loaded 2 Lua scripts in 28 ms
+3b8c history_db::initialise   1264 master bank ctag: |CTAG_1684449413_22593359_296_0
+3b8c history_db::compact      1526 History:  2 active, 0 deleted
+3b8c =?                          0 Clink updater: latest release is v1.4.28.
+3b8c =?                          0 Clink updater: downloading https://github.com/chrisant996/clink/releases/download/v1.4.28/clink.1.4.28.b0080b.zip to C:\Users\DRCRYP~1\AppData\Local\Temp\clink\updater\v1.4.28.zip.
+3b8c history_db::compact      1526 History:  3 active, 0 deleted
+3b8c =?                          0 Clink updater: update in C:\Users\DRCRYP~1\AppData\Local\Temp\clink\updater\v1.4.28.zip is ready to be applied.
+3b8c history_db::compact      1526 History:  3 active, 1 deleted
